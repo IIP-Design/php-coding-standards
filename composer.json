@@ -27,5 +27,10 @@
     "phpcompatibility/php-compatibility": "Required when using the GPA-Lab-WordPress standard",
     "phpcompatibility/phpcompatibility-wp": "Required when using the GPA-Lab-WordPress standard",
     "wp-coding-standards/wpcs": "Required when using the GPA-Lab-WordPress standard"
+  },
+  "homepage": "https://github.com/IIP-Design/php-coding-standards",
+  "support": {
+    "issues": "https://github.com/IIP-Design/php-coding-standards/issues",
+    "source": "https://github.com/IIP-Design/php-coding-standards"
   }
 }
