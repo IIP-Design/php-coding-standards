@@ -61,7 +61,7 @@ The process for installing the WordPress ruleset is largely the same. However, s
   "name": "my-wordpress-project",
   "require-dev": {
     "gpalab/coding-standards": "v1.0.0",
-    "squizlabs/php_codesniffer": "^3.6.2",
+    "squizlabs/php_codesniffer": "^3.7.1",
     "dealerdirect/phpcodesniffer-composer-installer": "^v0.7.1",
     "phpcompatibility/php-compatibility": "*",
     "phpcompatibility/phpcompatibility-wp": "^2.1.3",
