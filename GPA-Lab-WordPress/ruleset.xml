@@ -12,6 +12,7 @@
   <arg name="colors"/>
   <arg name="extensions" value="php" />
   <arg value="s"/>
+  <arg name="tab-width" value="2"/>
 
   <!-- Identify PHP cross-version compatibility issues in projects based on the WordPress CMS -->
   <rule ref="PHPCompatibilityWP" />
@@ -24,9 +25,11 @@
   <!-- Exclude unwanted rules from the Wordpress ruleset. -->
   <rule ref="WordPress">
     <exclude name="Generic.WhiteSpace.DisallowSpaceIndent" />
+    <exclude name="PEAR.Functions.FunctionCallSignature.Indent"/>
+    <exclude name="PEAR.Functions.FunctionCallSignature.OpeningIndent"/>
+    <exclude name="Universal.WhiteSpace.PrecisionAlignment"/>
     <exclude name="WordPress.Arrays.ArrayIndentation.ItemNotAligned" />
     <exclude name="WordPress.Arrays.ArrayIndentation.MultiLineArrayItemNotAligned" />
-    <exclude name="WordPress.WhiteSpace.PrecisionAlignment" />
   </rule>
 
   <!-- Override indent settings to default to two spaces. -->

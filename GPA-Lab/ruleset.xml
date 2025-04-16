@@ -12,6 +12,7 @@
   <arg name="colors"/>
   <arg name="extensions" value="php" />
   <arg value="s"/>
+  <arg name="tab-width" value="2"/>
 
   <!-- Default tab width for indentation fixes and such. -->
   <arg name="tab-width" value="2"/>
@@ -19,6 +20,8 @@
   <!-- Covers rule: Use single and double quotes when appropriate.
      If you're not evaluating anything in the string, use single quotes. -->
   <rule ref="Squiz.Strings.DoubleQuoteUsage.NotRequired"/>
+
+  <rule ref="Generic.WhiteSpace.DisallowTabIndent">
 
   <!-- Covers rule: Your indentation should always reflect logical structure. -->
   <rule ref="Generic.WhiteSpace.ScopeIndent">
